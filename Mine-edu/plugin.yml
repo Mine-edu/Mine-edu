@@ -1,0 +1,29 @@
+name: GradGames
+main: com.github.mine_edu.Mine_edu
+version: 1.0
+description: Changes player's game mode.
+commands:
+  creative:
+    description: Toggles game mode to creative.
+    permissions: GradGames.creative
+    usage: /creative "that's it"
+  survival:
+    description: Toggles game mode to survival.
+    permissions: Mine_edu.survival
+    default: true
+    usage: /survival
+  query:
+    description: Query test
+    permissions: Mine_edu.survival
+    default: true
+    usage: /query
+  newRow:
+    description: insert test
+    permissions: Mine_edu.survival
+    default: true
+    usage: /newrow
+  newquestion:
+    description: insert a new question
+    permissions: Mine_edu.survival
+    default: true
+    usage: /newquestion
